@@ -1,0 +1,7 @@
+{
+  "name": "कृष्णा मेडिकल हॉल - Krishna Medical Hall",
+  "description": "Trusted pharmacy in Lakhibag, Manpur, Bihar offering genuine medicines, healthcare devices, baby care, surgical supplies, and WhatsApp medicine home delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

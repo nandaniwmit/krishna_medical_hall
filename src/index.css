@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-primary: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-hindi: 'Hind', 'Plus Jakarta Sans', sans-serif;
+    --bg-dark: #0A0A0A;
+    --bg-card: #141414;
+    --bg-card-hover: #1A1A1A;
+    --text-primary: #F2F2F2;
+    --text-muted: #808080;
+    --accent-gold: #C4A484;
+    --accent-gold-hover: #D4B494;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+  }
+
+  body {
+    font-family: var(--font-primary);
+    background-color: #0A0A0A;
+    color: #F2F2F2;
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-hindi {
+    font-family: var(--font-hindi);
+  }
+}
+
+/* Sophisticated Dark Glass & Surface Styling */
+.sophisticated-card {
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sophisticated-card:hover {
+  background-color: #181818;
+  border-color: rgba(196, 164, 132, 0.35);
+  transform: translateY(-2px);
+}
+
+.sophisticated-card-static {
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.sophisticated-card-highlight {
+  background-color: #151515;
+  border: 1px solid rgba(196, 164, 132, 0.25);
+}
+
+.glass-panel {
+  background: rgba(20, 20, 20, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Custom Gold & Obsidian Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4A484;
+}
+
+/* Selection */
+::selection {
+  background-color: #C4A484;
+  color: #0A0A0A;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="medGrad512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A8F6A" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow512" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#medGrad512)" />
+  <circle cx="256" cy="256" r="210" fill="white" opacity="0.08" />
+  <circle cx="256" cy="256" r="160" fill="white" opacity="0.05" />
+  <!-- Medical Plus -->
+  <path d="M214 118 H298 V214 H394 V298 H298 V394 H214 V298 H118 V214 H214 Z" fill="#ffffff" filter="url(#shadow512)" rx="16" />
+  <!-- Pulse Curve inside -->
+  <path d="M170 256 L218 256 L240 210 L262 302 L288 256 L342 256" stroke="#0A8F6A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>

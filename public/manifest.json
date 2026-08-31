@@ -1,0 +1,67 @@
+{
+  "name": "कृष्णा मेडिकल हॉल - Krishna Medical Hall",
+  "short_name": "Krishna Medical",
+  "description": "Trusted Pharmacy in Lakhibag, Manpur, Bihar. Genuine Medicines & Fast WhatsApp Delivery.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A8F6A",
+  "orientation": "portrait-primary",
+  "lang": "hi-IN",
+  "dir": "ltr",
+  "categories": ["medical", "health", "shopping"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Check Medicine Stock",
+      "short_name": "Stock Checker",
+      "description": "Search available medicines and healthcare items",
+      "url": "/services#stock-checker",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Order on WhatsApp",
+      "short_name": "WhatsApp Order",
+      "description": "Send your medicine prescription via WhatsApp",
+      "url": "/contact#order",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Emergency Contact",
+      "short_name": "Call Store",
+      "description": "Call Krishna Medical Hall immediately",
+      "url": "tel:9955550799",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
